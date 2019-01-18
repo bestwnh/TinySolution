@@ -94,7 +94,7 @@
 			attributes = {
 				LastSwiftUpdateCheck = 1010;
 				LastUpgradeCheck = 1010;
-				ORGANIZATIONNAME = tiny;
+				ORGANIZATIONNAME = Galvin;
 				TargetAttributes = {
 					3AA7CC6821E4F556007F8274 = {
 						CreatedOnToolsVersion = 10.1;
