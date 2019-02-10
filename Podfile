@@ -26,6 +26,8 @@ post_install do |installer|
 
 end
 
+# the below code no need to modify
+
 def auto_process_target(app_target_names, embedded_target_name, installer)
     words = find_words_at_embedded_target('Pods-' + embedded_target_name,
                                           installer)
