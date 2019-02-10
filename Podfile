@@ -24,18 +24,6 @@ post_install do |installer|
     # next line is sample for fix both two target
     # auto_process_target(['Pods-CocoapodsDuplicateWarningFix', 'CocoapodsDuplicateWarning'], 'Pods-CocoapodsDuplicateWarningFramework', installer)
 
-    installer.pods_project.targets.each do |target|
-        target.build_configurations.each do |config|
-            if config.build_settings['IPHONEOS_DEPLOYMENT_TARGET'] != nil
-                config.build_settings['IPHONEOS_DEPLOYMENT_TARGET'] = '9.0'
-            end
-            if config.build_settings['MACOSX_DEPLOYMENT_TARGET'] != nil
-                config.build_settings['MACOSX_DEPLOYMENT_TARGET'] = '10.13'
-            end
-            # puts "ios: #{config.build_settings['IPHONEOS_DEPLOYMENT_TARGET']}"
-            # puts "mac: #{config.build_settings['MACOSX_DEPLOYMENT_TARGET']}"
-        end
-    end
 end
 
 def auto_process_target(app_target_names, embedded_target_name, installer)
