@@ -12,7 +12,68 @@
 		3AA7CC7221E4F556007F8274 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3AA7CC7021E4F556007F8274 /* Main.storyboard */; };
 		3AA7CC7421E4F557007F8274 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3AA7CC7321E4F557007F8274 /* Assets.xcassets */; };
 		3AA7CC7721E4F557007F8274 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3AA7CC7521E4F557007F8274 /* LaunchScreen.storyboard */; };
+		3AFC7FFA22105C5100524E1A /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3AFC7FF922105C5100524E1A /* AppDelegate.swift */; };
+		3AFC7FFC22105C5100524E1A /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3AFC7FFB22105C5100524E1A /* ViewController.swift */; };
+		3AFC7FFF22105C5100524E1A /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3AFC7FFD22105C5100524E1A /* Main.storyboard */; };
+		3AFC800122105C5200524E1A /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3AFC800022105C5200524E1A /* Assets.xcassets */; };
+		3AFC800422105C5200524E1A /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3AFC800222105C5200524E1A /* LaunchScreen.storyboard */; };
+		3AFC801022105C6300524E1A /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3AFC800F22105C6300524E1A /* AppDelegate.swift */; };
+		3AFC801222105C6300524E1A /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3AFC801122105C6300524E1A /* ViewController.swift */; };
+		3AFC801522105C6300524E1A /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3AFC801322105C6300524E1A /* Main.storyboard */; };
+		3AFC801722105C6400524E1A /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3AFC801622105C6400524E1A /* Assets.xcassets */; };
+		3AFC801A22105C6400524E1A /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3AFC801822105C6400524E1A /* LaunchScreen.storyboard */; };
+		3AFC802822105C7800524E1A /* CocoapodsDuplicateWarningFramework.h in Headers */ = {isa = PBXBuildFile; fileRef = 3AFC802622105C7800524E1A /* CocoapodsDuplicateWarningFramework.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		3AFC803122105CA000524E1A /* CocoapodsDuplicateWarningFramework.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3AFC802422105C7800524E1A /* CocoapodsDuplicateWarningFramework.framework */; };
+		3AFC803222105CA000524E1A /* CocoapodsDuplicateWarningFramework.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 3AFC802422105C7800524E1A /* CocoapodsDuplicateWarningFramework.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		3AFC803622105CA700524E1A /* CocoapodsDuplicateWarningFramework.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3AFC802422105C7800524E1A /* CocoapodsDuplicateWarningFramework.framework */; };
+		3AFC803722105CA700524E1A /* CocoapodsDuplicateWarningFramework.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 3AFC802422105C7800524E1A /* CocoapodsDuplicateWarningFramework.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		5948A734A32475F498ECD5C6 /* libPods-CocoapodsDuplicateWarningFix.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 9DCB96D1F16FE82885F06199 /* libPods-CocoapodsDuplicateWarningFix.a */; };
+		5D94BEAD78A79464CC32E2B8 /* libPods-CocoapodsDuplicateWarningFramework.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 40606727262DE771482AB0B9 /* libPods-CocoapodsDuplicateWarningFramework.a */; };
+		72BDAA3621B67E42ED716D20 /* libPods-TinySolution.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 3B188A6B3E9EA5D96417D35B /* libPods-TinySolution.a */; };
+		9EADC8C8485B1FEC58623FAD /* libPods-CocoapodsDuplicateWarning.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 92AE503B27CF7577A44E23CC /* libPods-CocoapodsDuplicateWarning.a */; };
 /* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		3AFC803322105CA000524E1A /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 3AA7CC6121E4F556007F8274 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 3AFC802322105C7800524E1A;
+			remoteInfo = CocoapodsDuplicateWarningFramework;
+		};
+		3AFC803822105CA700524E1A /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 3AA7CC6121E4F556007F8274 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 3AFC802322105C7800524E1A;
+			remoteInfo = CocoapodsDuplicateWarningFramework;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		3AFC803522105CA000524E1A /* Embed Frameworks */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 10;
+			files = (
+				3AFC803222105CA000524E1A /* CocoapodsDuplicateWarningFramework.framework in Embed Frameworks */,
+			);
+			name = "Embed Frameworks";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3AFC803A22105CA700524E1A /* Embed Frameworks */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 10;
+			files = (
+				3AFC803722105CA700524E1A /* CocoapodsDuplicateWarningFramework.framework in Embed Frameworks */,
+			);
+			name = "Embed Frameworks";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
 		3A93F40221EB23FA0055768B /* ResolveTheRestrictionsOfEnum.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = ResolveTheRestrictionsOfEnum.playground; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.swift; };
@@ -23,6 +84,36 @@
 		3AA7CC7321E4F557007F8274 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		3AA7CC7621E4F557007F8274 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		3AA7CC7821E4F557007F8274 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		3AFC7FF722105C5100524E1A /* CocoapodsDuplicateWarning.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = CocoapodsDuplicateWarning.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		3AFC7FF922105C5100524E1A /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		3AFC7FFB22105C5100524E1A /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		3AFC7FFE22105C5100524E1A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		3AFC800022105C5200524E1A /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		3AFC800322105C5200524E1A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		3AFC800522105C5200524E1A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		3AFC800D22105C6300524E1A /* CocoapodsDuplicateWarningFix.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = CocoapodsDuplicateWarningFix.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		3AFC800F22105C6300524E1A /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		3AFC801122105C6300524E1A /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		3AFC801422105C6300524E1A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		3AFC801622105C6400524E1A /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		3AFC801922105C6400524E1A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		3AFC801B22105C6400524E1A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		3AFC802422105C7800524E1A /* CocoapodsDuplicateWarningFramework.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = CocoapodsDuplicateWarningFramework.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		3AFC802622105C7800524E1A /* CocoapodsDuplicateWarningFramework.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CocoapodsDuplicateWarningFramework.h; sourceTree = "<group>"; };
+		3AFC802722105C7800524E1A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		3AFC803D22105CF300524E1A /* Podfile */ = {isa = PBXFileReference; lastKnownFileType = text; path = Podfile; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		3B188A6B3E9EA5D96417D35B /* libPods-TinySolution.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-TinySolution.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		3E67A82AF83582CE227F20D0 /* Pods-CocoapodsDuplicateWarningFramework.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-CocoapodsDuplicateWarningFramework.release.xcconfig"; path = "Pods/Target Support Files/Pods-CocoapodsDuplicateWarningFramework/Pods-CocoapodsDuplicateWarningFramework.release.xcconfig"; sourceTree = "<group>"; };
+		40606727262DE771482AB0B9 /* libPods-CocoapodsDuplicateWarningFramework.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-CocoapodsDuplicateWarningFramework.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		490EA5E6E9B85C1C1C292611 /* Pods-CocoapodsDuplicateWarningFramework.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-CocoapodsDuplicateWarningFramework.debug.xcconfig"; path = "Pods/Target Support Files/Pods-CocoapodsDuplicateWarningFramework/Pods-CocoapodsDuplicateWarningFramework.debug.xcconfig"; sourceTree = "<group>"; };
+		8D236536D414DE3BE5F1FDEB /* Pods-CocoapodsDuplicateWarning.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-CocoapodsDuplicateWarning.debug.xcconfig"; path = "Pods/Target Support Files/Pods-CocoapodsDuplicateWarning/Pods-CocoapodsDuplicateWarning.debug.xcconfig"; sourceTree = "<group>"; };
+		92AE503B27CF7577A44E23CC /* libPods-CocoapodsDuplicateWarning.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-CocoapodsDuplicateWarning.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		9DCB96D1F16FE82885F06199 /* libPods-CocoapodsDuplicateWarningFix.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-CocoapodsDuplicateWarningFix.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		9E47BAD92EC3396B34E6D884 /* Pods-CocoapodsDuplicateWarningFix.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-CocoapodsDuplicateWarningFix.debug.xcconfig"; path = "Pods/Target Support Files/Pods-CocoapodsDuplicateWarningFix/Pods-CocoapodsDuplicateWarningFix.debug.xcconfig"; sourceTree = "<group>"; };
+		A6E240ADCEC3DD338C8C4CA1 /* Pods-TinySolution.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TinySolution.debug.xcconfig"; path = "Pods/Target Support Files/Pods-TinySolution/Pods-TinySolution.debug.xcconfig"; sourceTree = "<group>"; };
+		A79138F5921F406EC532198A /* Pods-CocoapodsDuplicateWarning.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-CocoapodsDuplicateWarning.release.xcconfig"; path = "Pods/Target Support Files/Pods-CocoapodsDuplicateWarning/Pods-CocoapodsDuplicateWarning.release.xcconfig"; sourceTree = "<group>"; };
+		D143B7BED8CCC29E32669F21 /* Pods-CocoapodsDuplicateWarningFix.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-CocoapodsDuplicateWarningFix.release.xcconfig"; path = "Pods/Target Support Files/Pods-CocoapodsDuplicateWarningFix/Pods-CocoapodsDuplicateWarningFix.release.xcconfig"; sourceTree = "<group>"; };
+		E4BE60CFD6F1762447EBDB8B /* Pods-TinySolution.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TinySolution.release.xcconfig"; path = "Pods/Target Support Files/Pods-TinySolution/Pods-TinySolution.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -30,6 +121,33 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				72BDAA3621B67E42ED716D20 /* libPods-TinySolution.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3AFC7FF422105C5100524E1A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3AFC803122105CA000524E1A /* CocoapodsDuplicateWarningFramework.framework in Frameworks */,
+				9EADC8C8485B1FEC58623FAD /* libPods-CocoapodsDuplicateWarning.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3AFC800A22105C6300524E1A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3AFC803622105CA700524E1A /* CocoapodsDuplicateWarningFramework.framework in Frameworks */,
+				5948A734A32475F498ECD5C6 /* libPods-CocoapodsDuplicateWarningFix.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3AFC802122105C7800524E1A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5D94BEAD78A79464CC32E2B8 /* libPods-CocoapodsDuplicateWarningFramework.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -39,8 +157,11 @@
 		3AA7CC6021E4F556007F8274 = {
 			isa = PBXGroup;
 			children = (
+				3AFC803C22105CD400524E1A /* CocoapodsDuplicateWarningFolder */,
 				3AA7CC6B21E4F556007F8274 /* TinySolution */,
 				3AA7CC6A21E4F556007F8274 /* Products */,
+				77B7032494089341EC21ECC3 /* Pods */,
+				DF51047E622C8242942B6173 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -48,6 +169,9 @@
 			isa = PBXGroup;
 			children = (
 				3AA7CC6921E4F556007F8274 /* TinySolution.app */,
+				3AFC7FF722105C5100524E1A /* CocoapodsDuplicateWarning.app */,
+				3AFC800D22105C6300524E1A /* CocoapodsDuplicateWarningFix.app */,
+				3AFC802422105C7800524E1A /* CocoapodsDuplicateWarningFramework.framework */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -66,13 +190,97 @@
 			path = TinySolution;
 			sourceTree = "<group>";
 		};
+		3AFC7FF822105C5100524E1A /* CocoapodsDuplicateWarning */ = {
+			isa = PBXGroup;
+			children = (
+				3AFC7FF922105C5100524E1A /* AppDelegate.swift */,
+				3AFC7FFB22105C5100524E1A /* ViewController.swift */,
+				3AFC7FFD22105C5100524E1A /* Main.storyboard */,
+				3AFC800022105C5200524E1A /* Assets.xcassets */,
+				3AFC800222105C5200524E1A /* LaunchScreen.storyboard */,
+				3AFC800522105C5200524E1A /* Info.plist */,
+			);
+			path = CocoapodsDuplicateWarning;
+			sourceTree = "<group>";
+		};
+		3AFC800E22105C6300524E1A /* CocoapodsDuplicateWarningFix */ = {
+			isa = PBXGroup;
+			children = (
+				3AFC800F22105C6300524E1A /* AppDelegate.swift */,
+				3AFC801122105C6300524E1A /* ViewController.swift */,
+				3AFC801322105C6300524E1A /* Main.storyboard */,
+				3AFC801622105C6400524E1A /* Assets.xcassets */,
+				3AFC801822105C6400524E1A /* LaunchScreen.storyboard */,
+				3AFC801B22105C6400524E1A /* Info.plist */,
+			);
+			path = CocoapodsDuplicateWarningFix;
+			sourceTree = "<group>";
+		};
+		3AFC802522105C7800524E1A /* CocoapodsDuplicateWarningFramework */ = {
+			isa = PBXGroup;
+			children = (
+				3AFC802622105C7800524E1A /* CocoapodsDuplicateWarningFramework.h */,
+				3AFC802722105C7800524E1A /* Info.plist */,
+			);
+			path = CocoapodsDuplicateWarningFramework;
+			sourceTree = "<group>";
+		};
+		3AFC803C22105CD400524E1A /* CocoapodsDuplicateWarningFolder */ = {
+			isa = PBXGroup;
+			children = (
+				3AFC803D22105CF300524E1A /* Podfile */,
+				3AFC7FF822105C5100524E1A /* CocoapodsDuplicateWarning */,
+				3AFC800E22105C6300524E1A /* CocoapodsDuplicateWarningFix */,
+				3AFC802522105C7800524E1A /* CocoapodsDuplicateWarningFramework */,
+			);
+			name = CocoapodsDuplicateWarningFolder;
+			sourceTree = "<group>";
+		};
+		77B7032494089341EC21ECC3 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				8D236536D414DE3BE5F1FDEB /* Pods-CocoapodsDuplicateWarning.debug.xcconfig */,
+				A79138F5921F406EC532198A /* Pods-CocoapodsDuplicateWarning.release.xcconfig */,
+				9E47BAD92EC3396B34E6D884 /* Pods-CocoapodsDuplicateWarningFix.debug.xcconfig */,
+				D143B7BED8CCC29E32669F21 /* Pods-CocoapodsDuplicateWarningFix.release.xcconfig */,
+				490EA5E6E9B85C1C1C292611 /* Pods-CocoapodsDuplicateWarningFramework.debug.xcconfig */,
+				3E67A82AF83582CE227F20D0 /* Pods-CocoapodsDuplicateWarningFramework.release.xcconfig */,
+				A6E240ADCEC3DD338C8C4CA1 /* Pods-TinySolution.debug.xcconfig */,
+				E4BE60CFD6F1762447EBDB8B /* Pods-TinySolution.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		DF51047E622C8242942B6173 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				92AE503B27CF7577A44E23CC /* libPods-CocoapodsDuplicateWarning.a */,
+				9DCB96D1F16FE82885F06199 /* libPods-CocoapodsDuplicateWarningFix.a */,
+				40606727262DE771482AB0B9 /* libPods-CocoapodsDuplicateWarningFramework.a */,
+				3B188A6B3E9EA5D96417D35B /* libPods-TinySolution.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		3AFC801F22105C7800524E1A /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3AFC802822105C7800524E1A /* CocoapodsDuplicateWarningFramework.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
 
 /* Begin PBXNativeTarget section */
 		3AA7CC6821E4F556007F8274 /* TinySolution */ = {
 			isa = PBXNativeTarget;
 			buildConfigurationList = 3AA7CC7B21E4F557007F8274 /* Build configuration list for PBXNativeTarget "TinySolution" */;
 			buildPhases = (
+				CC15BC8B57544B92A9F48EFF /* [CP] Check Pods Manifest.lock */,
 				3AA7CC6521E4F556007F8274 /* Sources */,
 				3AA7CC6621E4F556007F8274 /* Frameworks */,
 				3AA7CC6721E4F556007F8274 /* Resources */,
@@ -86,6 +294,65 @@
 			productReference = 3AA7CC6921E4F556007F8274 /* TinySolution.app */;
 			productType = "com.apple.product-type.application";
 		};
+		3AFC7FF622105C5100524E1A /* CocoapodsDuplicateWarning */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 3AFC800822105C5200524E1A /* Build configuration list for PBXNativeTarget "CocoapodsDuplicateWarning" */;
+			buildPhases = (
+				CE54AEE16FCAD2B65006E86D /* [CP] Check Pods Manifest.lock */,
+				3AFC7FF322105C5100524E1A /* Sources */,
+				3AFC7FF422105C5100524E1A /* Frameworks */,
+				3AFC7FF522105C5100524E1A /* Resources */,
+				3AFC803522105CA000524E1A /* Embed Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				3AFC803422105CA000524E1A /* PBXTargetDependency */,
+			);
+			name = CocoapodsDuplicateWarning;
+			productName = CocoapodsDuplicateWarning;
+			productReference = 3AFC7FF722105C5100524E1A /* CocoapodsDuplicateWarning.app */;
+			productType = "com.apple.product-type.application";
+		};
+		3AFC800C22105C6300524E1A /* CocoapodsDuplicateWarningFix */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 3AFC801C22105C6400524E1A /* Build configuration list for PBXNativeTarget "CocoapodsDuplicateWarningFix" */;
+			buildPhases = (
+				F67C942CB6F37970AD8C7A5D /* [CP] Check Pods Manifest.lock */,
+				3AFC800922105C6300524E1A /* Sources */,
+				3AFC800A22105C6300524E1A /* Frameworks */,
+				3AFC800B22105C6300524E1A /* Resources */,
+				3AFC803A22105CA700524E1A /* Embed Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				3AFC803922105CA700524E1A /* PBXTargetDependency */,
+			);
+			name = CocoapodsDuplicateWarningFix;
+			productName = CocoapodsDuplicateWarningFix;
+			productReference = 3AFC800D22105C6300524E1A /* CocoapodsDuplicateWarningFix.app */;
+			productType = "com.apple.product-type.application";
+		};
+		3AFC802322105C7800524E1A /* CocoapodsDuplicateWarningFramework */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 3AFC802D22105C7800524E1A /* Build configuration list for PBXNativeTarget "CocoapodsDuplicateWarningFramework" */;
+			buildPhases = (
+				F9AC0FFC496EB1C8AD745F73 /* [CP] Check Pods Manifest.lock */,
+				3AFC801F22105C7800524E1A /* Headers */,
+				3AFC802022105C7800524E1A /* Sources */,
+				3AFC802122105C7800524E1A /* Frameworks */,
+				3AFC802222105C7800524E1A /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = CocoapodsDuplicateWarningFramework;
+			productName = CocoapodsDuplicateWarningFramework;
+			productReference = 3AFC802422105C7800524E1A /* CocoapodsDuplicateWarningFramework.framework */;
+			productType = "com.apple.product-type.framework";
+		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
@@ -98,6 +365,16 @@
 				TargetAttributes = {
 					3AA7CC6821E4F556007F8274 = {
 						CreatedOnToolsVersion = 10.1;
+					};
+					3AFC7FF622105C5100524E1A = {
+						CreatedOnToolsVersion = 10.1;
+					};
+					3AFC800C22105C6300524E1A = {
+						CreatedOnToolsVersion = 10.1;
+					};
+					3AFC802322105C7800524E1A = {
+						CreatedOnToolsVersion = 10.1;
+						LastSwiftMigration = 1010;
 					};
 				};
 			};
@@ -115,6 +392,9 @@
 			projectRoot = "";
 			targets = (
 				3AA7CC6821E4F556007F8274 /* TinySolution */,
+				3AFC7FF622105C5100524E1A /* CocoapodsDuplicateWarning */,
+				3AFC800C22105C6300524E1A /* CocoapodsDuplicateWarningFix */,
+				3AFC802322105C7800524E1A /* CocoapodsDuplicateWarningFramework */,
 			);
 		};
 /* End PBXProject section */
@@ -130,7 +410,125 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		3AFC7FF522105C5100524E1A /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3AFC800422105C5200524E1A /* LaunchScreen.storyboard in Resources */,
+				3AFC800122105C5200524E1A /* Assets.xcassets in Resources */,
+				3AFC7FFF22105C5100524E1A /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3AFC800B22105C6300524E1A /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3AFC801A22105C6400524E1A /* LaunchScreen.storyboard in Resources */,
+				3AFC801722105C6400524E1A /* Assets.xcassets in Resources */,
+				3AFC801522105C6300524E1A /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3AFC802222105C7800524E1A /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		CC15BC8B57544B92A9F48EFF /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-TinySolution-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		CE54AEE16FCAD2B65006E86D /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-CocoapodsDuplicateWarning-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		F67C942CB6F37970AD8C7A5D /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-CocoapodsDuplicateWarningFix-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		F9AC0FFC496EB1C8AD745F73 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-CocoapodsDuplicateWarningFramework-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		3AA7CC6521E4F556007F8274 /* Sources */ = {
@@ -142,7 +540,45 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		3AFC7FF322105C5100524E1A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3AFC7FFC22105C5100524E1A /* ViewController.swift in Sources */,
+				3AFC7FFA22105C5100524E1A /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3AFC800922105C6300524E1A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3AFC801222105C6300524E1A /* ViewController.swift in Sources */,
+				3AFC801022105C6300524E1A /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3AFC802022105C7800524E1A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 /* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		3AFC803422105CA000524E1A /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 3AFC802322105C7800524E1A /* CocoapodsDuplicateWarningFramework */;
+			targetProxy = 3AFC803322105CA000524E1A /* PBXContainerItemProxy */;
+		};
+		3AFC803922105CA700524E1A /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 3AFC802322105C7800524E1A /* CocoapodsDuplicateWarningFramework */;
+			targetProxy = 3AFC803822105CA700524E1A /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
 
 /* Begin PBXVariantGroup section */
 		3AA7CC7021E4F556007F8274 /* Main.storyboard */ = {
@@ -157,6 +593,38 @@
 			isa = PBXVariantGroup;
 			children = (
 				3AA7CC7621E4F557007F8274 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+		3AFC7FFD22105C5100524E1A /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				3AFC7FFE22105C5100524E1A /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		3AFC800222105C5200524E1A /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				3AFC800322105C5200524E1A /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+		3AFC801322105C6300524E1A /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				3AFC801422105C6300524E1A /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		3AFC801822105C6400524E1A /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				3AFC801922105C6400524E1A /* Base */,
 			);
 			name = LaunchScreen.storyboard;
 			sourceTree = "<group>";
@@ -282,6 +750,7 @@
 		};
 		3AA7CC7C21E4F557007F8274 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = A6E240ADCEC3DD338C8C4CA1 /* Pods-TinySolution.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
@@ -300,6 +769,7 @@
 		};
 		3AA7CC7D21E4F557007F8274 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = E4BE60CFD6F1762447EBDB8B /* Pods-TinySolution.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
@@ -313,6 +783,143 @@
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 4.2;
 				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		3AFC800622105C5200524E1A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 8D236536D414DE3BE5F1FDEB /* Pods-CocoapodsDuplicateWarning.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 52G28TQG59;
+				INFOPLIST_FILE = CocoapodsDuplicateWarning/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.galvin.CocoapodsDuplicateWarning;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		3AFC800722105C5200524E1A /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = A79138F5921F406EC532198A /* Pods-CocoapodsDuplicateWarning.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 52G28TQG59;
+				INFOPLIST_FILE = CocoapodsDuplicateWarning/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.galvin.CocoapodsDuplicateWarning;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		3AFC801D22105C6400524E1A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 9E47BAD92EC3396B34E6D884 /* Pods-CocoapodsDuplicateWarningFix.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 52G28TQG59;
+				INFOPLIST_FILE = CocoapodsDuplicateWarningFix/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.galvin.CocoapodsDuplicateWarningFix;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		3AFC801E22105C6400524E1A /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = D143B7BED8CCC29E32669F21 /* Pods-CocoapodsDuplicateWarningFix.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 52G28TQG59;
+				INFOPLIST_FILE = CocoapodsDuplicateWarningFix/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.galvin.CocoapodsDuplicateWarningFix;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		3AFC802E22105C7800524E1A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 490EA5E6E9B85C1C1C292611 /* Pods-CocoapodsDuplicateWarningFramework.debug.xcconfig */;
+			buildSettings = {
+				CLANG_ENABLE_MODULES = YES;
+				CODE_SIGN_IDENTITY = "";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DEVELOPMENT_TEAM = 52G28TQG59;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = CocoapodsDuplicateWarningFramework/Info.plist;
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.galvin.CocoapodsDuplicateWarningFramework;
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SKIP_INSTALL = YES;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		3AFC802F22105C7800524E1A /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 3E67A82AF83582CE227F20D0 /* Pods-CocoapodsDuplicateWarningFramework.release.xcconfig */;
+			buildSettings = {
+				CLANG_ENABLE_MODULES = YES;
+				CODE_SIGN_IDENTITY = "";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DEVELOPMENT_TEAM = 52G28TQG59;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = CocoapodsDuplicateWarningFramework/Info.plist;
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.galvin.CocoapodsDuplicateWarningFramework;
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SKIP_INSTALL = YES;
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
 			};
 			name = Release;
 		};
@@ -333,6 +940,33 @@
 			buildConfigurations = (
 				3AA7CC7C21E4F557007F8274 /* Debug */,
 				3AA7CC7D21E4F557007F8274 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		3AFC800822105C5200524E1A /* Build configuration list for PBXNativeTarget "CocoapodsDuplicateWarning" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3AFC800622105C5200524E1A /* Debug */,
+				3AFC800722105C5200524E1A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		3AFC801C22105C6400524E1A /* Build configuration list for PBXNativeTarget "CocoapodsDuplicateWarningFix" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3AFC801D22105C6400524E1A /* Debug */,
+				3AFC801E22105C6400524E1A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		3AFC802D22105C7800524E1A /* Build configuration list for PBXNativeTarget "CocoapodsDuplicateWarningFramework" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3AFC802E22105C7800524E1A /* Debug */,
+				3AFC802F22105C7800524E1A /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
